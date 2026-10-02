@@ -26,7 +26,6 @@ Live SauceDemo web application; target browser Chrome/latest desktop. Known demo
 ## Exit Criteria
 - All planned test cases reviewed
 - Critical/high defects documented
-- Summary produced
 
 ## Defect Severity
 - **Critical:** blocks purchase/core workflow
@@ -35,7 +34,7 @@ Live SauceDemo web application; target browser Chrome/latest desktop. Known demo
 - **Low:** cosmetic/minor
 
 ## Risks
-Demo-user accounts intentionally exhibit defects; live-site behavior can change; the available tool environment could not execute browser JavaScript or capture native screenshots.
+Demo-user accounts intentionally exhibit defects; live-site behavior can change; the available tool environment could not execute browser JavaScript.
 
 ## Deliverables
-1-page test plan; 55 test cases; test summary; 10 Jira defect reports; evidence attachments/reconstructions.
+1-page test plan; 55 test cases; test summary; Jira defect reports.
