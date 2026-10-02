@@ -1,20 +1,15 @@
 # SauceDemo Manual Testing — QA Portfolio
 
-Manual QA testing project for SauceDemo, with test planning, 55 test cases, execution summary, and Jira defect traceability.
+Manual QA testing project for SauceDemo, with structured test planning, test case documentation, and test summary.
 
 ## Deliverables
 - Test Plan
-- 55 Test Cases (Excel)
+- Test Cases (Excel)
 - Test Summary
-- Jira defect traceability: SCRUM-13 through SCRUM-22
-- Master Jira task: SCRUM-23
-- Evidence reconstructions for reported defects
+- Defects are documented with reproduction steps, expected and actual results.
 
-## Jira
-The project work was tracked in Jira under the SCRUM project. SCRUM-23 serves as the master task containing the test cases, plan, summary, limitations, defect links, and evidence notes.
-
-## Evidence note
-The defect evidence images included in the package are reconstructions for portfolio documentation; they are not native screenshots captured directly from Jira.
+## Status
+Execution results are updated as I run each case.
 
 ## Files
-The complete original deliverables are included in `SauceDemo_QA_Deliverables.zip`.
+Project documentation is organized in the `docs/` directory.
