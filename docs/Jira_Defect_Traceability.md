@@ -1,7 +1,7 @@
 # Jira Defect Traceability
 
-## Defects
-The manual-testing cycle produced 10 Jira defect tasks:
+## Defect records
+The repository references the following Jira defect tasks:
 
 - SCRUM-13
 - SCRUM-14
@@ -14,10 +14,7 @@ The manual-testing cycle produced 10 Jira defect tasks:
 - SCRUM-21
 - SCRUM-22
 
-Each defect was documented with reproduction steps, expected vs. actual behavior, severity/priority, environment, account, and traceability.
+The defect records include reproduction steps, expected vs. actual behavior, severity/priority, environment, account, and traceability.
 
 ## Master task
-**SCRUM-23** is the master Jira task containing the 55 test cases, test plan, test summary, limitations, defect links, and evidence notes.
-
-## Evidence
-The original package contains 10 evidence reconstruction PNGs corresponding to BUG-01 through BUG-10. These are explicitly labeled reconstructions, not native Jira/browser screenshots.
+**SCRUM-23** is referenced as the master Jira task for the project documentation.
