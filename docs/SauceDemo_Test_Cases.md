@@ -2,7 +2,7 @@
 
 Full case documentation for the 55 cases listed in [SauceDemo_Test_Case_Index.md](SauceDemo_Test_Case_Index.md). The same content is in the Excel workbook [SauceDemo_Test_Cases.xlsx](SauceDemo_Test_Cases.xlsx), which also holds the execution status columns and a live summary.
 
-**Execution status:** every case is currently **Not Run**. No results, actual outcomes or evidence are recorded here. Expected results describe how the application should behave; they are updated only if a run shows the expectation was wrong.
+**Execution status:** six scenarios have overlapping Playwright checks that passed in the latest recorded successful CI run; those cases are labelled **Automation covered — not manually executed** below. The remaining 49 cases are **Not Run** and have no recorded actual outcomes or evidence. The Excel workbook's Status column tracks manual execution only, so its 55 manual statuses remain Not Run. Expected results describe intended behavior, not proof of a pass.
 
 **Environment:** https://www.saucedemo.com/ in desktop Chrome (latest). Accounts and data: see the Test Data sheet in the workbook.
 
