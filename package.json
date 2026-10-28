@@ -1,0 +1,13 @@
+{
+  "name": "saucedemo-manual-testing",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portfolio project for manual QA with a separate Playwright smoke suite",
+  "scripts": {
+    "test:e2e": "playwright test",
+    "test:e2e:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}
