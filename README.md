@@ -2,11 +2,11 @@
 
 A learning-focused quality assurance project for [SauceDemo](https://www.saucedemo.com/) demonstrating test planning, manual test-case design, defect documentation, traceability, and browser-test automation with Playwright and GitHub Actions.
 
-> **Project status:** Documentation and automation setup are complete for this educational portfolio. The GitHub Actions browser-test workflow has completed successfully. The 55 manual test cases are documented but have **not** been individually executed; their statuses remain `Not Run`. Defect reports are examples/drafts until reproduced and verified.
+> **Project status:** Documentation and automation setup are complete for this educational portfolio. The latest recorded GitHub Actions browser-test workflow completed successfully. The six mapped scenarios below have automated coverage but were **not** manually executed; the other 49 manual cases are not automated and have not been executed. The workbook's `Not Run` status is specifically the manual-execution status. Defect reports remain drafts until reproduced and verified.
 
 ## Project highlights
 
-- **55 manual test cases** across six application areas, with preconditions, steps, test data, expected results, and execution fields.
+- **55 documented manual test cases** across six application areas, with preconditions, steps, test data, expected results, and execution fields. Six have overlapping automated checks; the other 49 are not covered by the current automation.
 - **Playwright browser automation** for six core login, inventory, cart, and checkout scenarios.
 - **GitHub Actions CI** to install dependencies and Chromium, run the automated suite, and upload test reports/evidence.
 - **Test plan, summary, defect-report drafts, and traceability documentation** to demonstrate a QA workflow from planning through reporting.
@@ -27,7 +27,9 @@ The manual suite includes functional, negative, and boundary scenarios. Test dat
 
 ### Automated browser scenarios
 
-The Playwright suite covers:
+The Playwright suite covers six scenarios that overlap with these manual cases: **TC-001, TC-011, TC-015, TC-020, TC-044, and TC-054**. These are automation-covered, not manually executed. The other 49 manual cases are not covered by the current automation. See the [coverage mapping](docs/AUTOMATED_TESTING.md#mapping-to-the-manual-suite).
+
+The automated scenarios are:
 
 1. Standard-user login and inventory visibility
 2. Locked-out-user login error
@@ -81,7 +83,7 @@ The CI workflow also runs on pushes to configured branches, pull requests target
 
 ## Scope and reporting integrity
 
-This is an educational QA portfolio, not a claim of production certification. Expected results describe intended behavior; they are not proof that a scenario passed. Defect drafts are not confirmed bugs until reproduced. Automated smoke tests cover only the six listed scenarios and do not replace the full manual test suite.
+This is an educational QA portfolio, not a claim of production certification. The successful CI run supports the six automated checks only; it does not imply that the 55 manual cases passed. Expected results describe intended behavior; defect drafts are not confirmed bugs until reproduced. The workbook's manual status fields are deliberately not overwritten by automation results.
 
 ## Skills demonstrated
 
