@@ -10,7 +10,7 @@ Full case documentation for the 55 cases listed in [SauceDemo_Test_Case_Index.md
 
 ### TC-001 — Valid login with standard credentials
 
-**Type:** Functional · **Priority:** High · **Status:** Not Run
+**Type:** Functional · **Priority:** High · **Status:** Automation covered — not manually executed
 
 **Preconditions:** Browser open on https://www.saucedemo.com/; no user logged in
 
@@ -169,7 +169,7 @@ Full case documentation for the 55 cases listed in [SauceDemo_Test_Case_Index.md
 
 ### TC-011 — Locked account
 
-**Type:** Negative · **Priority:** High · **Status:** Not Run
+**Type:** Negative · **Priority:** High · **Status:** Automation covered — not manually executed
 
 **Preconditions:** Browser open on https://www.saucedemo.com/; no user logged in
 
@@ -231,7 +231,7 @@ Full case documentation for the 55 cases listed in [SauceDemo_Test_Case_Index.md
 
 ### TC-015 — Add first product to cart
 
-**Type:** Functional · **Priority:** High · **Status:** Not Run
+**Type:** Functional · **Priority:** High · **Status:** Automation covered — not manually executed
 
 **Preconditions:** Logged in as standard_user; Products page displayed; cart empty
 
@@ -304,7 +304,7 @@ Full case documentation for the 55 cases listed in [SauceDemo_Test_Case_Index.md
 
 ### TC-020 — Sort Price Low-High
 
-**Type:** Boundary · **Priority:** Medium · Bug: BUG-10 · **Status:** Not Run
+**Type:** Boundary · **Priority:** Medium · Bug: BUG-10 · **Status:** Automation covered — not manually executed
 
 **Preconditions:** Logged in as standard_user; Products page displayed; cart empty
 
@@ -669,7 +669,7 @@ Full case documentation for the 55 cases listed in [SauceDemo_Test_Case_Index.md
 
 ### TC-044 — Postal code empty
 
-**Type:** Negative · **Priority:** High · **Status:** Not Run
+**Type:** Negative · **Priority:** High · **Status:** Automation covered — not manually executed
 
 **Preconditions:** Logged in as standard_user; Sauce Labs Backpack in cart; Checkout: Your Information page open
 
@@ -832,7 +832,7 @@ Full case documentation for the 55 cases listed in [SauceDemo_Test_Case_Index.md
 
 ### TC-054 — Finish purchase
 
-**Type:** Functional · **Priority:** Critical · **Status:** Not Run
+**Type:** Functional · **Priority:** Critical · **Status:** Automation covered — not manually executed
 
 **Preconditions:** Logged in as standard_user; Backpack and Bike Light in cart; Checkout: Overview page open (valid details entered)
 
