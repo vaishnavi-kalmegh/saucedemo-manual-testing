@@ -58,4 +58,4 @@
 | TC-054 | Order Overview | Functional | Finish purchase | Critical | |
 | TC-055 | Order Overview | Negative | Error user Finish action | Critical | BUG-10 |
 
-> The original Excel workbook contains the full preconditions, steps, test data, expected results, execution status, and observed/bug fields for all 55 cases.
+> Full preconditions, steps, test data, expected results and execution status for all 55 cases are in [SauceDemo_Test_Cases.xlsx](SauceDemo_Test_Cases.xlsx) and, in readable form, [SauceDemo_Test_Cases.md](SauceDemo_Test_Cases.md). Bug references are drafted in [SauceDemo_Defect_Reports.md](SauceDemo_Defect_Reports.md).
