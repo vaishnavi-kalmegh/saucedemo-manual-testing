@@ -15,6 +15,19 @@ The Playwright suite currently checks:
 5. Completing checkout with valid data.
 6. Required postal-code validation during checkout.
 
+## Mapping to the manual suite
+
+| Manual case | Corresponding automated check | Reporting status |
+|---|---|---|
+| TC-001 | Standard user login and inventory visibility | Automation covered; not manually executed |
+| TC-011 | Locked-out user login error | Automation covered; not manually executed |
+| TC-015 | Add product to cart and verify cart contents | Automation covered; not manually executed |
+| TC-020 | Sort inventory prices low to high | Automation covered; not manually executed |
+| TC-044 | Required postal-code validation | Automation covered; not manually executed |
+| TC-054 | Complete checkout and verify confirmation | Automation covered; not manually executed |
+
+These mappings indicate overlapping scenarios, not a claim that the manual test cases were executed. The other 49 manual cases have no equivalent check in the current automated suite. The Excel workbook tracks manual execution, so its manual statuses should remain unchanged until a person executes those cases.
+
 ## Where to find results
 
 Open the repository's **Actions** tab, select **SauceDemo Playwright checks**, and open a workflow run. Download the `saucedemo-playwright-results` artifact for the HTML report and any failure traces/screenshots produced by the run.
